@@ -17,7 +17,7 @@ const char* ssid = "JioNet";
 const char* password = "";
 
 // Server Configuration
-const char* serverUrl = "http://100.115.172.128:3000/upload";
+const char* serverUrl = "http://your_local_ip_address:3000/upload";
 
 
 #define PWDN_GPIO_NUM     32

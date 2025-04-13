@@ -7,7 +7,7 @@ const app = express();
 const port = 3000;
 
 // Initialize Turbo client
-const jwk = JSON.parse(readFileSync('wallet.json'));
+const jwk = JSON.parse(readFileSync('wallet.json'));//add your wallet.json file 
 const publicId = jwk.n; // Extract public ID
 const turboAuthClient = TurboFactory.authenticated({ privateKey: jwk });
 
